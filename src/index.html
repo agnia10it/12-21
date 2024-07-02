@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="main.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="app.js"></script>
+  <title>12:21</title>
+</head>
+
+
+<body class="page" id="1221">
+  <div class="burger" style="display: none;">
+    <div class="container burger__top">
+      <svg id="burger__close-btn" class="burger__close" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"
+        fill="none">
+        <rect width="46.4616" height="3.79279" transform="matrix(-0.716354 -0.697737 -0.716354 0.697737 36 32.418)"
+          fill="white"></rect>
+        <path d="M33.2831 0.935638L0.000115673 33.3536L2.71709 36L36.0001 3.58201L33.2831 0.935638Z" fill="white">
+        </path>
+      </svg>
+    </div>
+    <div class="burger__main">
+      <div class="container burger__container">
+        <div class="left-menu">
+          <ul class="list menu-list">
+            <li class="menu-item">О&nbsp;нас</li>
+            <li class="menu-item">Портфолио</li>
+            <li class="menu-item">Создание стратегии</li>
+            <li class="menu-item">Фотосъёмка</li>
+            <li class="menu-item">Ретушь</li>
+            <li class="menu-item">Аренда студии</li>
+            <li class="menu-item">Контакты</li>
+          </ul>
+          <ul class="list burger__social-list">
+            <li class="burger__social-item">
+              <svg  width="60" height="59">
+                <use href="img/sprite.svg#vk"></use>
+              </svg>
+            </li>
+            <li class="burger__social-item">
+              <svg  width="60" height="59">
+                <use href="img/sprite.svg#instagramm"></use>
+              </svg>
+            </li>
+            <li class="burger__social-item">
+              <svg  width="60" height="59">
+                <use href="img/sprite.svg#fb"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div class="right-menu">
+          <div class="cases">
+            <h2 class="subtitle">Кейсы</h2>
+            <ul class="list cases-list">
+              <li class="cases-item">Уста к&nbsp;устам</li>
+              <li class="cases-item">Zara</li>
+              <li class="cases-item">New Balance</li>
+              <li class="cases-item">Levi&rsquo;s</li>
+              <li class="cases-item">Rains</li>
+              <li class="cases-item">Abercrombie &amp;&nbsp;Fitch</li>
+              <li class="cases-item">Massimo Dutti</li>
+            </ul>
+          </div>
+          <div class="partners">
+            <h2 class="subtitle">Партнёрам</h2>
+            <ul class="list partners-list">
+              <li class="partners-item">Условия партнёрства</li>
+              <li class="partners-item">Статистика</li>
+              <li class="partners-item">О&nbsp;нас</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <header class="header">
+    <div class="container header__container">
+      <button id="burger-btn" class="btn burger-button" aria-label="Открыть меню сайта">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </button>
+      <div class="header__center">
+        <a class="logo-link" href="#"><img src="img/logo.svg" alt="choose your look"></a>
+      </div>
+      <div class="header__nav">
+        <a class="header__nav-link" href="#">Вход</a>
+        <a class="header__nav-link header__nav-link_arrow" href="#">Услуги</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <h1 class="visually-hidden">12:21. Choose your look</h1>
+    <div class="container main__container">
+      <div class="main__left">
+        <h2 class="title">Создадим имидж вашему бренду</h2>
+        <p class="main__descr">Все этапы создания контента.</p>
+        <p class="main__descr">От&nbsp;фотосессии до&nbsp;пре-пресса</p>
+        <a class="main__button" href="#">Ознакомиться</a>
+      </div>
+      <div class="main__right">
+        <p class="photo__descr">Автор фото: Сергей Журавлёв. <a class="photo__descr-link" href="#">Портфолио автора</a>
+        </p>
+        <div class="top-line">
+          <span class="main__time">12:21</span>
+          <ul class="list social-list">
+            <li class="social-item">
+              <svg width="26" height="26">
+                <use href="img/sprite.svg#vk"></use>
+              </svg>
+            </li>
+            <li class="social-item">
+              <svg width="26" height="26" >
+                <use href="img/sprite.svg#instagramm"></use>
+              </svg>
+            </li>
+            <li class="social-item">
+              <svg width="27" height="26">
+                <use href="img/sprite.svg#fb"></use>
+              </svg>
+            </li>
+          </ul>
+
+        </div>
+        <div class="photos">
+          <img class="photo photo_big" src="img/photo-1.jpg" alt="Чёрно-белая фотография девушки">
+          <div class="photos-right">
+            <img class="photo" src="img/photo-2.jpg" alt="Чёрно-белая фотография девушки">
+            <img class="photo" src="img/photo-3.jpg" alt="Чёрно-белая фотография девушки">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
